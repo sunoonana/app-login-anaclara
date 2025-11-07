@@ -1,0 +1,20 @@
+
+        /* Adiciona um espaçamento no topo do body para o conteúdo não começar atrás da navbar fixa */
+        body {
+            padding-top: 56px;
+        }
+        /* Adiciona um espaçamento padrão para todas as seções */
+        section {
+            padding: 60px 0;
+        }
+        .hero-section {
+            background-color: #f8f9fa;
+            padding: 100px 0;
+        }
+        .card {
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
